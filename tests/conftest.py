@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+import argparse
 
 @pytest.fixture(scope="function")
 def chrome_browser():
